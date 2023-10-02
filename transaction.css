@@ -1,0 +1,35 @@
+@font-face {
+    font-family: linear pro;
+    src: url(./linear-by-braydon-fuller.otf);
+}
+.img2{
+    margin-left: 34%;
+    margin-top: 04%;
+    height: 45%;
+    width: 30%;
+}
+.p2{
+    margin-top: 30px;
+    text-align: center;
+    font-family: linear pro;
+    font-size: 18px;
+
+}
+.p1{
+    margin-top: 30px;
+    text-align: center;
+    font-family: linear pro;
+    font-size: 18px;
+    color: rgb(22, 64, 255);
+
+}
+button{
+    margin-left: 45.5%;
+    margin-top: 50px;
+    background-color: rgb(51, 51, 249);
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 16px 32px;
+}

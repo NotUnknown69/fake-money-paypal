@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PayPal | Money Transfers</title>
+    <link rel="stylesheet" href="paypal.css" />
+    <link
+      rel="icon"
+      href="https://www.paypalobjects.com/webstatic/icon/pp32.png"
+    />
+  </head>
+
+  <body>
+    <!-- Website For Making Fake Transactions-->
+    <h1 class="topic">PayPal Balance</h1>
+    <h2 class="balance" id="bal">$65,854,928</h2>
+    <h6 class="avbal">Available Balance</h6>
+    <h3 class="receiver">Payment Receiver:</h3>
+    <form action="form">
+      <input
+        type="text"
+        id="rec"
+        name="rec"
+        placeholder="Receiver Name"
+        size="30px"
+      />
+    </form>
+    <h4 class="currency">Select Currency:</h4>
+    <form action="form">
+      <input
+        type="text"
+        id="curr"
+        name="curr"
+        placeholder="Currency"
+        size="30px"
+      />
+    </form>
+
+    <h5 class="amount">Enter Amount:</h5>
+    <form action="form">
+      <input
+        type="text"
+        id="amo"
+        name="amo"
+        placeholder="Enter Amount"
+        size="30px"
+      />
+    </form>
+    <button id="nextButton">Transfer Amount</button>
+    <script src="paypal.js"></script>
+    <!-- Can Add Making History of The Transsactions Features Also-->
+  </body>
+</html>
